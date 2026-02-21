@@ -91,3 +91,5 @@ Para soporte o preguntas, contacta a: soporte@liftylife.com
 ---
 
 **Desplegado con ❤️ para Rylax y futuros clientes**
+"" 
+"Ultima actualizaci�n: $(date)" 
