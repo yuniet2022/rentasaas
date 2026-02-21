@@ -1,6 +1,12 @@
 [build]
 builder = "nixpacks"
 
+[build.nixpacks]
+# Especificar que es Node.js
+nixpacksVersion = "1.0.0"
+
 [deploy]
 startCommand = "cd backend && npm start"
 healthcheckPath = "/api/health"
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 3
